@@ -1,0 +1,119 @@
+ 
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+        .menu,ul {   
+    flex-direction: column;
+   
+    
+  }
+  ul li{
+      margin: 5px 0px;
+       width: 100wh;
+  }
+
+  .mycards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+#gallery .container .gallery img:hover{
+     
+    border: 5px solid #fff;
+    border-radius: 3px;
+}
+/* btn */
+a.btn.btn-warning {
+    margin-bottom: 13px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu,ul {   
+    /* flex-direction: column; */
+   
+    
+  }
+  ul li{
+      /* margin: 5px 0px;
+       width: 100wh; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .menu,ul {   
+    flex-direction: column;
+   
+    
+  }
+  ul li{
+      margin: 5px 0px;
+       width: 100wh;
+  }
+  .mycards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+#gallery .container .gallery img:hover{
+     
+    border: 5px solid #fff;
+    border-radius: 3px;
+}
+/* btn */
+a.btn.btn-warning {
+    margin-bottom: 13px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    #gallery .container .gallery img:hover{
+     
+    border: 5px solid #fff;
+    border-radius: 3px;
+}
+
+}
+/*  */
+@media only screen and (min-width: 992px) {
+    .menu,ul {   
+    /* flex-direction: column; */
+   
+    
+  }
+  ul li{
+      margin: 5px;
+       /* width: 100wh; */
+  }
+  /* btn */
+  a.btn.btn-warning {
+    margin-bottom: 13px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu,ul {   
+    /* flex-direction: column; */
+   
+    
+  }
+  ul li{
+      /* margin: 5px 0px;
+       width: 100wh; */
+  }
+}
+
+
+
+
+.btn-warning{}
